@@ -1,1 +1,4 @@
-DELETE FROM compras WHERE (id_cliente=(SELECT id FROM clientes WHERE nome='Martinha Lima Zambujal') AND id_produto=(SELECT id FROM produtos WHERE nome='Fone Topo de Linha'));
+SELECT id FROM clientes WHERE nome='Olga Cascais Fortunato';
+SELECT id FROM produtos WHERE nome='Celular Topo de Linha';
+INSERT INTO "compras" ("id_cliente", "id_produto") VALUES ('4', '8');
+INSERT INTO "compras" ("id_cliente", "id_produto") VALUES ('4', '8');
