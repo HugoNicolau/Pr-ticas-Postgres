@@ -1,1 +1,1 @@
-SELECT AVG(salary) FROM jobs WHERE id=1;
+SELECT AVG(salary) AS average FROM jobs WHERE "roleId"=1;
