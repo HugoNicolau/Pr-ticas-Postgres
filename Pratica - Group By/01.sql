@@ -1,0 +1,1 @@
+SELECT COUNT(id) FROM experiences WHERE "endDate" IS NOT NULL;
