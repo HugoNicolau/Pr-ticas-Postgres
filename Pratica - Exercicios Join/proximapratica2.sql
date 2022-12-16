@@ -1,1 +1,1 @@
-SELECT "userId" AS id, COUNT("userId") AS experiences FROM experiences GROUP BY "userId";
+SELECT "userId" AS id, COUNT("userId") AS experiences FROM experiences GROUP BY "userId" ORDER BY experiences DESC;
