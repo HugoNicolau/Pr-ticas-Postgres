@@ -1,0 +1,1 @@
+SELECT courses.name, COUNT("userId") AS "peopleCount" FROM educations JOIN courses ON "courseId"=courses.id GROUP BY courses.name ORDER BY "peopleCount" DESC;
